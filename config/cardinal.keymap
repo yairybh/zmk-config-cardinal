@@ -135,7 +135,7 @@
             // (5 way)     
 
             bindings = <
-&trans   &kp N1            &kp N2        &kp N3        &kp N4          &kp N5                  &kp N6  &kp N7          &kp N8    &kp N9     &kp N0     &kp TILDE
+&trans   &kp N1            &kp N2        &kp N3        &kp N4          &kp N5                  &kp N6  &kp N7          &kp N8    &kp N9     &kp N0     &trans
 &trans   &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &none                   &none   &kp LEFT_ARROW  &kp UP    &kp DOWN   &kp RIGHT  &kp ES_GRAVE
 &kp F11  &kp F1            &kp F2        &kp F3        &kp F4          &kp F5  &trans  &trans  &kp F6  &kp F7          &kp F8    &kp F9     &kp F10    &kp F12
                                          &trans        &to 1           &trans  &trans  &trans  &trans  &trans          &trans
@@ -162,13 +162,13 @@
             // (5 way)     
 
             bindings = <
-&trans  &kp ES_EXCL   &kp ES_AT     &kp ES_HASH  &kp ES_TILDE  &kp ES_PRCNT                  &kp ES_AMPS  &kp ES_FSLH  &kp ES_LPAR  &kp ES_RPAR  &trans         &trans
-&trans  &kp ES_MINUS  &kp ES_CARET  &kp ES_STAR  &kp PLUS      &kp ES_EQUAL                  &kp ES_SQT   &kp ES_PIPE  &kp ES_LBKT  &kp ES_RBKT  &kp ES_IQMARK  &trans
-&trans  &kp UNDER     &trans        &trans       &trans        &trans        &trans  &trans  &kp ES_DQT   &kp ES_BSLH  &kp ES_LBRC  &kp ES_RBRC  &none          &trans
-                                    &trans       &trans        &trans        &trans  &trans  &trans       &to 2        &none
-                      &kp W                                                                                                         &kp UP
-        &kp A         &none         &kp D                                                                              &kp LEFT     &kp SPACE    &kp RIGHT
-                      &kp S                                                                                                         &kp DOWN
+&trans  &kp ES_EXCL     &kp AT     &kp LPAR  &kp TILDE  &kp ES_PRCNT                  &kp AMPS  &kp FSLH  &kp RPAR           &kp HASH   &trans         &trans
+&trans  &kp MINUS       &kp CARET  &kp LBKT  &kp PLUS   &kp EQUAL                     &kp APOS  &kp PIPE  &kp RIGHT_BRACKET  &kp ASTRK  &kp ES_IQMARK  &trans
+&trans  &kp UNDERSCORE  &trans     &kp LBRC  &trans     &trans        &trans  &trans  &kp DQT   &kp NUBS  &kp RBRC           &trans     &none          &trans
+                                   &trans    &trans     &trans        &trans  &trans  &trans    &to 2     &none
+                        &kp W                                                                                                &kp UP
+        &kp A           &none      &kp D                                                                  &kp LEFT           &kp SPACE  &kp RIGHT
+                        &kp S                                                                                                &kp DOWN
             >;
 
             sensor-bindings = <

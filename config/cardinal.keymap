@@ -162,12 +162,12 @@
             // (5 way)     
 
             bindings = <
-&trans  &kp ES_EXCL     &kp AT     &kp LPAR  &kp TILDE          &kp ES_PRCNT                     &kp AMPS  &kp FSLH  &kp RPAR           &kp HASH   &kp HOME   &trans
-&trans  &kp MINUS       &kp CARET  &kp LBKT  &kp PLUS           &kp EQUAL                        &kp APOS  &kp PIPE  &kp RIGHT_BRACKET  &kp ASTRK  &kp END    &trans
-&trans  &kp UNDERSCORE  &trans     &kp LBRC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans  &trans  &kp DQT   &kp NUBS  &kp RBRC           &trans     &none      &trans
+&trans  &kp ES_EXCL     &kp AT     &kp LPAR  &kp TILDE          &kp ES_PRCNT                     &kp AMPS  &kp FSLH  &kp RPAR           &kp HASH       &kp HOME     &trans
+&trans  &kp MINUS       &kp CARET  &kp LBKT  &kp PLUS           &kp EQUAL                        &kp APOS  &kp PIPE  &kp RIGHT_BRACKET  &kp ASTRK      &kp END      &trans
+&trans  &kp UNDERSCORE  &trans     &kp LBRC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans  &trans  &kp DQT   &kp NUBS  &kp RBRC           &kp PAGE_DOWN  &kp PAGE_UP  &trans
                                    &trans    &trans             &trans           &trans  &trans  &trans    &to 2     &none
                         &kp W                                                                                                           &kp UP
-        &kp A           &none      &kp D                                                                             &kp LEFT           &kp SPACE  &kp RIGHT
+        &kp A           &none      &kp D                                                                             &kp LEFT           &kp SPACE      &kp RIGHT
                         &kp S                                                                                                           &kp DOWN
             >;
 
